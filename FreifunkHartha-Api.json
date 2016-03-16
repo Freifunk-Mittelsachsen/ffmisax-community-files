@@ -1,0 +1,93 @@
+{
+  "name": "Freifunk Hartha",
+  "url": "http://www.freifunk-mittelsachsen.de",
+  "location": {
+    "city": "Hartha",
+    "country": "DE",
+    "lat": 51.0963340,
+    "lon": 12.9725860
+  },
+  "contact": {
+    "email": "kontakt@freifunk-mittelsachsen.de",
+    "jabber": "david@freifunk-mittelsachsen.de",
+    "irc": "irc://freifunkwdh@hackint",
+    "facebook": "https://www.facebook.com/FreifunkMittelsachsen/",
+    "twitter": "@freifunkmtl"
+  },
+  "metacommunity": "Freifunk Mittelsachsen",
+  "state": {
+    "description": "Freifunk Mittelsachsen Waldheim, Doebeln, Mittweida, Hartha usw.",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2016-03-16T18:19:27.679Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "http://karte.freifunk-mittelsachsen.de/meshviewer/",
+      "interval": "5",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    },
+    {
+      "url": "http://karte.freifunk-mittelsachsen.de/meshviewer/nodelist.json",
+      "interval": "5",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
+    }
+  ],
+  "support": {
+    "club": {
+      "name": "Verein Freifunk Mittelsachsen",
+      "street": "Landsberger Strasse 20",
+      "zip": "04736",
+      "city": "Waldheim",
+      "url": "http://www.freifunk-mittelsachsen.de",
+      "email": "kontakt@freifunk-mittelsachsen.de",
+      "board": [
+        "David Noelte",
+        "Dominic Ernst"
+      ]
+    }
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "gluon",
+      "url": "http://firmware.freifunk-mittelsachsen.de",
+      "docs": "http://gluon.readthedocs.org/",
+      "vpnaccess": "mail"
+    },
+    "dns": [
+      {
+        "domainname": "ffhar",
+        "nameserver": [
+          "10.23.0.1",
+          "10.23.0.2"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv4": [
+        {
+          "network": "10.23.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "manual",
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational",
+      "vpninternational"
+    ]
+  },
+  "api": "0.4.12"
+}
