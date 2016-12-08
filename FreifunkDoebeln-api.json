@@ -12,11 +12,11 @@
     "jabber": "david@freifunk-mittelsachsen.de",
     "irc": "irc://freifunkwdh@hackint",
     "facebook": "https://www.facebook.com/FreifunkMittelsachsen/",
-    "twitter": "@freifunkmtl"
+    "twitter": "@freifunkmsn"
   },
   "metacommunity": "Freifunk Mittelsachsen",
   "state": {
-    "description": "Freifunk Mittelsachsen Waldheim, Doebeln, Mittweida, Hartha usw.",
+    "description": "Freifunk Mittelsachsen Waldheim, Doebeln, Mittweida, Hartha, Leisnig, Grimma usw.",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -24,7 +24,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2016-03-16T18:19:27.679Z"
+    "lastchange": "2016-12-06T18:19:27.679Z"
   },
   "nodeMaps": [
     {
