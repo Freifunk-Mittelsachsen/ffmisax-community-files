@@ -9,10 +9,10 @@
   },
   "contact": {
     "email": "kontakt@freifunk-mittelsachsen.de",
-    "jabber": "david@freifunk-mittelsachsen.de",
-    "irc": "irc://freifunkwdh@hackint",
-    "facebook": "https://www.facebook.com/FreifunkMittelsachsen/",
-    "twitter": "@freifunkmsn"
+
+
+
+
   },
   "metacommunity": "Freifunk Mittelsachsen",
   "state": {
@@ -28,32 +28,19 @@
   },
   "nodeMaps": [
     {
-      "url": "http://karte.freifunk-waldheim.de/meshviewer/",
+      "url": "http://karte.freifunk-mittelsachsen.de/meshviewer/",
       "interval": "5",
       "technicalType": "meshviewer",
       "mapType": "geographical"
     },
     {
-      "url": "http://karte.freifunk-waldheim.de/meshviewer/nodelist.json",
+      "url": "http://karte.freifunk-mittelsachsen.de/meshviewer/nodelist.json",
       "interval": "5",
       "technicalType": "nodelist",
       "mapType": "list/status"
     }
   ],
-  "support": {
-    "club": {
-      "name": "Verein Freifunk Mittelsachsen",
-      "street": "Landsberger Strasse 20",
-      "zip": "04736",
-      "city": "Waldheim",
-      "url": "http://www.freifunk-mittelsachsen.de",
-      "email": "kontakt@freifunk-mittelsachsen.de",
-      "board": [
-        "David Noelte",
-        "Dominic Ernst"
-      ]
-    }
-  },
+
   "techDetails": {
     "firmware": {
       "name": "gluon",
